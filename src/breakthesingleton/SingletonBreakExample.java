@@ -116,5 +116,6 @@ public class SingletonBreakExample {
         // Breaking Singleton using cloning
         Singleton s5 = (Singleton) s1.clone(); // Attempt to clone the instance
         System.out.println("s5 Hashcode: " + s5.hashCode());
+        
     }
 }
